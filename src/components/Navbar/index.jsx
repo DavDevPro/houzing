@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import navbar from "../../utils/navbar";
+import Filter from "../Filter";
 import { Button } from "../Generic/Button";
 import { Container, Wrapper, Section, Logo, Link } from "./style";
 
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <Container>
       <Wrapper>
-        <Section onClick={() => navigate("/home")} logo>
+        <Section onClick={() => navigate("/home")} >
           <Logo /> <h3>Houzing</h3>
         </Section>
         <Section>
@@ -29,6 +30,7 @@ const Navbar = () => {
           </Button>
         </Section>
       </Wrapper>
+      <Filter/>
       <Outlet />
     </Container>
   );
