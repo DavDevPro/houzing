@@ -13,4 +13,14 @@
 
 // 3-dars
 // ▶ Carousel
-// ▶
+// ▶ Generic House Card
+
+// 4-dars
+// ▶ Netlify redirect bug fixed 
+// ▶ Swagger haqida tushuncha 
+// ▶ Swagger vs Postman
+// ▶ .env file
+// ▶ Custom Hooks: useReplace(), useSearch()
+// ▶ new URL()
+// ▶ new URLsearchParams()
+// ▶ Filter Globally

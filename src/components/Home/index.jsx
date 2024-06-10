@@ -1,11 +1,17 @@
 import React from "react";
 import Carousel from "../Carousel";
-import { Container } from "./style";
+import HouseCard from "../HouseCard";
+import { CardWrapper, Container } from "./style";
 
 const Home = () => {
   return (
     <Container>
       <Carousel />
+      <CardWrapper>
+        <HouseCard />
+        <HouseCard />
+        <HouseCard />
+      </CardWrapper>
     </Container>
   );
 };
